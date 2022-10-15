@@ -1,6 +1,6 @@
 import cv2
 
-# ler imagem e ja converter para escala de cinza
+# ler imagem e ja converter para cinza
 image_gray = cv2.imread("./lenaPoderosa.png", cv2.COLOR_BGR2GRAY)
 
 # converte a imagem para o tipo informado

@@ -1,10 +1,10 @@
 import cv2
 
-# ler imagem e ja converter para escala de cinza
+# ler imagem e ja converter para cinza
 image_gray = cv2.imread("./lenaPoderosa.png", cv2.COLOR_BGR2GRAY)
 
 height, width, _ = image_gray.shape
-  
+
 for i in range(0, height - 1):
     for j in range(0, width - 1):
         pixel = image_gray[i, j]
